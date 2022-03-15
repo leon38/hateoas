@@ -1,0 +1,7 @@
+framework:
+  router:
+    utf8: true
+
+sensio_framework_extra:
+  router:
+    annotations: false
