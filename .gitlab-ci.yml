@@ -1,0 +1,7 @@
+include:
+  - project: 'wizbii/gitlab-ci-library'
+    file: '/stages/php-lib.yml'
+
+variables:
+  WITH_BEHAT: "false"
+  PHP_TEST_IMAGE: "eu.gcr.io/wizbii-infra/php:8-test"
