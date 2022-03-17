@@ -25,8 +25,6 @@ class HateOasListener implements EventSubscriberInterface
         $request = $event->getRequest();
         $response = $event->getResponse();
 
-        dd($request, $response);
-
         /** The request is not in JSON */
         if ($request->headers->get('content-type') !== 'application/json' || !$controller = $request->get('_controller', '')) {
             return;
