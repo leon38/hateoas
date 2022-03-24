@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "431b4ae0ceafd021e6758c4093d582de",
+    "content-hash": "648bdb7a6a6f8f6b8baf5afcfb08f6db",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2736,16 +2736,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.7.0",
+            "version": "v3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "7705d5a985132a40282d18a176eb9a4a0497747c"
+                "reference": "cbad1115aac4b5c3c5540e7210d3c9fba2f81fa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/7705d5a985132a40282d18a176eb9a4a0497747c",
-                "reference": "7705d5a985132a40282d18a176eb9a4a0497747c",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/cbad1115aac4b5c3c5540e7210d3c9fba2f81fa3",
+                "reference": "cbad1115aac4b5c3c5540e7210d3c9fba2f81fa3",
                 "shasum": ""
             },
             "require": {
@@ -2813,7 +2813,7 @@
             "description": "A tool to automatically fix PHP code style",
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues",
-                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v3.7.0"
+                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v3.8.0"
             },
             "funding": [
                 {
@@ -2821,7 +2821,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-03-07T16:59:59+00:00"
+            "time": "2022-03-18T17:20:59+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -6287,63 +6287,6 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
             "time": "2021-03-09T10:59:23+00:00"
-        },
-        {
-            "name": "wizbii/coding-style",
-            "version": "2.0.2",
-            "source": {
-                "type": "git",
-                "url": "git@gitlab.com:wizbii/phplibs/coding-style.git",
-                "reference": "f6990ec788ec664dfbcf5f5d5d89fa184bd3f7c2"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://satis.wizbii.us//wizbii/coding-style/wizbii-coding-style-2.0.2-31b2bb.tar",
-                "reference": "f6990ec788ec664dfbcf5f5d5d89fa184bd3f7c2",
-                "shasum": "c639d62b562f9d8b2ab4088b4d33a5d298966605"
-            },
-            "require": {
-                "friendsofphp/php-cs-fixer": "^3.0",
-                "php": ">=8.0"
-            },
-            "require-dev": {
-                "phpstan/phpstan": "^0.12.83",
-                "phpunit/phpunit": "^9.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Wizbii\\CodingStyle\\": "src"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Tests\\Wizbii\\CodingStyle\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "phpunit --testdox --colors=always"
-                ],
-                "test:coverage": [
-                    "phpdbg -qrr $(which vendor/bin/phpunit) --testdox --coverage-cobertura reports/cobertura.xml --coverage-clover reports/clover.xml --log-junit reports/junit.xml"
-                ],
-                "phpstan": [
-                    "phpstan analyze src --level max --memory-limit=-1"
-                ],
-                "cs:fix": [
-                    "php-cs-fixer fix --diff --ansi"
-                ],
-                "cs:lint": [
-                    "php-cs-fixer fix --dry-run --diff --ansi"
-                ],
-                "dev:checks": [
-                    "@test",
-                    "@cs:lint",
-                    "@phpstan"
-                ]
-            },
-            "time": "2021-09-16T13:02:00+00:00"
         }
     ],
     "aliases": [],
