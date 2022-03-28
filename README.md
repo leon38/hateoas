@@ -11,7 +11,7 @@ composer require wizbii/hateoas-bundle
 
 ## Basic Usage
 Use this bundle to expose routes associated to the current route. If you want to expose all the routes of your controller, you'll use `#[HateOas]` attribute:
-```injectablephp
+```php
 #[HateOas]
 class YourCrudController extends AbstractController
 {
@@ -93,7 +93,7 @@ The `self` route is the current endpoint called.
 
 ## Manual Usage
 Sometimes, we don't want to expose all the controller routes, you can configure that for each endpoint with the `#[RouteLink]`attribute:
-```injectablephp
+```php
 class YourCrudController extends AbstractController
 {
     ...
@@ -187,7 +187,7 @@ We can see on this example that the `id` in the path has been replaced with the 
 
 ## Add link with PHP
 Say you want to add link on another endpoint depending on conditions, you can do that inside the controller:
-```injectablephp
+```php
 class YourCrudController extends AbstractController
 {
     use HateOasTrait
