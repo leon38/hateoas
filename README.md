@@ -239,6 +239,7 @@ class YourCrudController extends AbstractController
 
 ## Contributing
 You can contribute to this project via merge requests, or open an issue in Github, here: https://github.com/leon38/hateoas/issues
+
 Pull Request Process
 1. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
 2. You may merge the Pull Request in once you have the sign-off of one other developer.
