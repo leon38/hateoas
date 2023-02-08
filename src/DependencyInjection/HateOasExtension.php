@@ -1,12 +1,12 @@
 <?php
 
-namespace Wizbii\HateOasBundle\DependencyInjection;
+namespace HateOas\HateOasBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Wizbii\HateOasBundle\Listener\HateOasListener;
 
-class WizbiiHateOasExtension extends Extension
+class HateOasExtension extends Extension
 {
     /**
      * {@inheritdoc}

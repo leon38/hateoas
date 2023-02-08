@@ -1,10 +1,10 @@
 <?php
 
-namespace Wizbii\HateOasBundle\Controller;
+namespace HateOas\HateOasBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
-use Tests\Wizbii\HateOasBundle\Fixtures\ExtendsAbstractController;
-use Tests\Wizbii\HateOasBundle\Fixtures\NotAbstractController;
+use Tests\HateOas\HateOasBundle\Fixtures\ExtendsAbstractController;
+use Tests\HateOas\HateOasBundle\Fixtures\NotAbstractController;
 
 class HateOasTraitTest extends KernelTestCase
 {

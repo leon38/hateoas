@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\Wizbii\HateOasBundle\DependencyInjection;
+namespace Tests\HateOas\HateOasBundle\DependencyInjection;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Wizbii\HateOasBundle\DependencyInjection\WizbiiHateOasExtension;
-use Wizbii\HateOasBundle\Listener\HateOasListener;
+use HateOas\HateOasBundle\DependencyInjection\HateOasHateOasExtension;
+use HateOas\HateOasBundle\Listener\HateOasListener;
 
-class WizbiiHateOasExtensionTest extends TestCase
+class HateOasExtensionTest extends TestCase
 {
     public function testItProvidesAHateOasListenerService()
     {
-        $ext = new WizbiiHateOasExtension();
+        $ext = new HateOasExtension();
         $container = new ContainerBuilder();
 
         $ext->load([], $container);

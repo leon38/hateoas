@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Wizbii\HateOasBundle\Fixtures;
+namespace Tests\HateOas\HateOasBundle\Fixtures;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Annotation\Route;
-use Wizbii\HateOasBundle\Trait\HateOasTrait;
+use HateOas\HateOasBundle\Trait\HateOasTrait;
 
 #[Route('/not_abstract')]
 class NotAbstractController

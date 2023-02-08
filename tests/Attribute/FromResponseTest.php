@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Wizbii\HateOasBundle\Attribute;
+namespace Tests\HateOas\HateOasBundle\Attribute;
 
 use PHPUnit\Framework\TestCase;
-use Wizbii\HateOasBundle\Attribute\FromResponse;
+use HateOas\HateOasBundle\Attribute\FromResponse;
 
 class FromResponseTest extends TestCase
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Wizbii\HateOasBundle\Fixtures;
+namespace Tests\HateOas\HateOasBundle\Fixtures;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Annotation\Route;
-use Wizbii\HateOasBundle\Attribute\FromRequest;
-use Wizbii\HateOasBundle\Attribute\FromResponse;
-use Wizbii\HateOasBundle\Attribute\RouteLink;
+use HateOas\HateOasBundle\Attribute\FromRequest;
+use HateOas\HateOasBundle\Attribute\FromResponse;
+use HateOas\HateOasBundle\Attribute\RouteLink;
 
 #[Route('/manual')]
 class ManualLinkController extends AbstractController

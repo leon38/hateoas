@@ -1,6 +1,6 @@
 <?php
 
-namespace Wizbii\HateOasBundle\Attribute;
+namespace HateOas\HateOasBundle\Attribute;
 
 #[\Attribute(\Attribute::TARGET_CLASS | \Attribute::TARGET_METHOD | \Attribute::TARGET_PROPERTY | \Attribute::IS_REPEATABLE)]
 class FromRequest

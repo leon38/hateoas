@@ -1,6 +1,6 @@
 <?php
 
-namespace Wizbii\HateOasBundle\Attribute;
+namespace HateOas\HateOasBundle\Attribute;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\ConfigurationAnnotation;
 

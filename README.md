@@ -5,7 +5,7 @@ Create attributes and controller to add links automagically in content
 ## Installation
 Run this command to install the HateOas Bundle before using it:
 ```bash
-composer require wizbii/hateoas-bundle
+composer require hateoas/hateoas-bundle
 ```
 
 

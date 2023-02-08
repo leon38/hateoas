@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Wizbii\HateOasBundle\Fixtures;
+namespace Tests\HateOas\HateOasBundle\Fixtures;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Annotation\Route;
-use Wizbii\HateOasBundle\Attribute\GenerateAllHateOasLinks;
+use HateOas\HateOasBundle\Attribute\GenerateAllHateOasLinks;
 
 #[Route('/auto')]
 #[GenerateAllHateOasLinks]

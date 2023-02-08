@@ -1,21 +1,21 @@
 {
-    "name": "wizbii/hateoas-bundle",
+    "name": "leon38/hateoas-bundle",
     "license": "MIT",
     "type": "symfony-bundle",
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Wizbii\\HateOasBundle\\": "src",
-            "Tests\\Wizbii\\HateOasBundle\\": "tests"
+            "leon38\\HateOasBundle\\": "src",
+            "Tests\\leon38\\HateOasBundle\\": "tests"
         }
     },
     "require": {
         "php": ">=8.0",
-        "symfony/config": "^5.0",
-        "symfony/dependency-injection": "^5.0",
-        "symfony/http-kernel": "^5.0",
-        "symfony/yaml": "^5.0",
-        "symfony/serializer": "^5.0",
+        "symfony/config": "^6.0",
+        "symfony/dependency-injection": "^6.0",
+        "symfony/http-kernel": "^6.0",
+        "symfony/yaml": "^6.0",
+        "symfony/serializer": "^6.0",
         "sensio/framework-extra-bundle": "^6.0"
     },
     "require-dev": {
@@ -32,7 +32,7 @@
         "symfony/routing": "^6.0",
         "symfony/runtime": "^6.0",
         "symfony/test-pack": "^1.0",
-        "symfony/var-dumper": "^5.0"
+        "symfony/var-dumper": "^6.0"
     },
     "scripts": {
         "changelog": "conventional-changelog",

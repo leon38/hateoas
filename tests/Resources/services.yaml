@@ -3,7 +3,7 @@ services:
     autowire: true      # Automatically injects dependencies in your services.
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
-  Tests\Wizbii\HateOasBundle\Fixtures\AutoLinkController: ~
-  Tests\Wizbii\HateOasBundle\Fixtures\ManualLinkController: ~
-  Tests\Wizbii\HateOasBundle\Fixtures\NotAbstractController: ~
-  Tests\Wizbii\HateOasBundle\Fixtures\ExtendsAbstractController: ~
+  Tests\HateOas\HateOasBundle\Fixtures\AutoLinkController: ~
+  Tests\HateOas\HateOasBundle\Fixtures\ManualLinkController: ~
+  Tests\HateOas\HateOasBundle\Fixtures\NotAbstractController: ~
+  Tests\HateOas\HateOasBundle\Fixtures\ExtendsAbstractController: ~

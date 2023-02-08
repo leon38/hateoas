@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Wizbii\HateOas\Listener;
+namespace Tests\HateOas\HateOas\Listener;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

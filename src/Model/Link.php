@@ -1,6 +1,6 @@
 <?php
 
-namespace Wizbii\HateOasBundle\Model;
+namespace HateOas\HateOasBundle\Model;
 
 class Link
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Wizbii\HateOasBundle\Listener;
+namespace HateOas\HateOasBundle\Listener;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\Request;

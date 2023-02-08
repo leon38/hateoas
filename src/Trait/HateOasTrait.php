@@ -1,6 +1,6 @@
 <?php
 
-namespace Wizbii\HateOasBundle\Trait;
+namespace HateOas\HateOasBundle\Trait;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Wizbii\HateOasBundle\Fixtures;
+namespace Tests\HateOas\HateOasBundle\Fixtures;
 
 use Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
@@ -9,7 +9,7 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;
 use Symfony\Component\Routing\Loader\Configurator\RoutingConfigurator;
-use Wizbii\HateOasBundle\WizbiiHateOasBundle;
+use HateOas\HateOasBundle\HateOasHateOasBundle;
 
 class Kernel extends BaseKernel
 {
@@ -31,7 +31,7 @@ class Kernel extends BaseKernel
     {
         yield new FrameworkBundle();
         yield new SensioFrameworkExtraBundle();
-        yield new WizbiiHateOasBundle();
+        yield new HateOasHateOasBundle();
     }
 
     protected function configureContainer(ContainerConfigurator $container, LoaderInterface $loader)

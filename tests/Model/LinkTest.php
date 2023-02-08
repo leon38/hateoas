@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Wizbii\HateOasBundle\Model;
+namespace Tests\HateOas\HateOasBundle\Model;
 
 use PHPUnit\Framework\TestCase;
-use Wizbii\HateOasBundle\Model\Link;
+use HateOas\HateOasBundle\Model\Link;
 
 class LinkTest extends TestCase
 {
